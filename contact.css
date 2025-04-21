@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gabarito&family=Inclusive+Sans&family=Inter&family=Montserrat&family=Poppins&family=Raleway&family=Roboto&family=Space+Grotesk&family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+    transition: all 0.5s linear;
+    font-family: poppins;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(227,240,239);
+}
+.background{
+    height: 50vh;
+    width: 100%;
+ 
+    background-image: linear-gradient(rgba(2 10 10/57%),rgba(2 10 10/20%)),url(img/2149844662.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+.navbar img{
+    width: 80px;
+}
+
+.navbar-items{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar{
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 1% 2%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    background-color: rgb(0,174,76);
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.burger{
+    display: none;
+}
+
+
+
+
+/* _________Details and form */
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(227,240,239);
+}
+
+section {
+  position: relative;
+  z-index: 3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fdf4f4;
+}
+
+
+.section-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-header h2 {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.section-header p {
+  color: #FFF;
+}
+
+.row  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.contact-info {
+  width: 50%;
+}
+
+.contact-info-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contact-info-icon {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(0,174,76);
+  color: #FFF;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.contact-info-icon i {
+  font-size: 30px;
+  line-height: 70px;
+}
+
+.contact-info-content {
+  margin-left: 20px;
+}
+
+.contact-info-content h4 {
+  color: rgb(0,174,76);
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+.contact-info-content p {
+  color: #252424;
+  font-size: 1em;
+}
+
+.contact-form {
+  background-color: rgb(0,174,76);
+  padding: 40px;
+  width: 45%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #fdf4f4;
+}
+
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.contact-form .input-box span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box textarea:focus ~ span{
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contact-form .input-box input[type="submit"]
+{
+  width: 100%;
+  background: rgb(0,174,76);
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid rgb(0,174,76);
+  transition: 0.5s;
+}
+
+.contact-form .input-box input[type="submit"]:hover
+{
+  background: #FFF;
+  color: rgb(0,174,76);
+}
+
+
+
+/* __________footer */
+footer{
+    background-color: rgb(0,174,76);
+    color: #fff;
+}
+.footer-sec{
+    padding: 3% 0;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+.sec{
+    display: flex;
+    flex-basis: 40%;
+}
+.f_box{
+    flex-basis: 50%;
+}
+.f_box h2{
+    padding-bottom: 2%;
+}
+.f_box p{
+    padding: 4px 0;
+}
+.f_box p i{
+    font-size: 23px;
+    padding: 5px 3px;
+    cursor: pointer;
+}
+.para{
+    text-align: center;
+    color: aliceblue;
+    padding: 12px 0;
+    background-color: rgb(0,174,76);
+}
+
+/* ____________responsiveness */
+@media only screen and (max-width:995px){
+
+
+    
+}
+@media only screen and (max-width:828px){
+  .row .contact-info{
+    width: 95%;
+  }
+
+  .contact-form{
+    width: 70%;
+  }
+   
+    .footer-sec {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:766px){
+    .navbar ul li{
+        display: block;
+        padding: 2px 0 34px;
+    }
+    .navbar-items{
+        position: absolute;
+        background-color: rgb(0,174,76);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        transition: all 1s ease-out;
+    }
+    .navbar-items ul{
+        padding: 98px 51px 8px 49px;
+    }
+    .burger{
+        display: block;
+        z-index: 3;
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        cursor: pointer;
+        font-size: 33px;
+        color: #fff;
+    }
+    .h-class{
+        height: 100vh;
+        opacity: 0;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .text-box{
+        width: 80%;
+    }
+    .box input{
+        width: 85%;
+    }
+    .row,.sec{
+        flex-direction: column;
+    }
+    .box3{
+        width: 90%;
+    }
+    .row,.box1{
+        margin-bottom: 7%;
+    }
+    .box1{
+        padding: 4%;
+    }
+}
+@media only screen and (max-width:570px){
+  .row{
+    width: 100%;
+   
+}
+
+}
