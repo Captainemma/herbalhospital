@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
- 
     transition: all 0.5s linear;
     font-family: poppins;
     font-family: 'Gabarito', sans-serif;
@@ -72,7 +71,7 @@ body{
 
 
 
-/* _________Details and form */
+/* Details and form */
 body::after {
   content: "";
   position: absolute;
@@ -235,7 +234,7 @@ section {
 
 
 
-/* __________footer */
+/*footer */
 footer{
     background-color: rgb(0,174,76);
     color: #fff;
@@ -272,12 +271,9 @@ footer{
     background-color: rgb(0,174,76);
 }
 
-/* ____________responsiveness */
-@media only screen and (max-width:995px){
+/* responsiveness */
+ 
 
-
-    
-}
 @media only screen and (max-width:828px){
   .row .contact-info{
     width: 95%;

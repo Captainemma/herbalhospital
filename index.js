@@ -7,7 +7,6 @@ burger.addEventListener('click',()=>{
    nav.classList.toggle('v-class')
 })
 
-
   document.getElementById('appointmentForm').addEventListener('submit', async function(e) {
     e.preventDefault();
     const form = e.target;
@@ -42,3 +41,6 @@ burger.addEventListener('click',()=>{
       }, 5000);
     }
   });
+
+
+  
