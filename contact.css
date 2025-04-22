@@ -4,9 +4,8 @@
     margin: 0;
     padding: 0;
     transition: all 0.5s linear;
-    font-family: poppins;
+    font-family: 'Poppins';
     font-family: 'Gabarito', sans-serif;
-    font-family: 'Inclusive Sans', sans-serif;
 }
 
 body{
@@ -15,8 +14,7 @@ body{
 .background{
     height: 50vh;
     width: 100%;
- 
-    background-image: linear-gradient(rgba(2 10 10/57%),rgba(2 10 10/20%)),url(img/2149844662.jpg);
+    background-image: linear-gradient(rgba(2 10 10/57%),rgba(2 10 10/20%)),url(img/contact\ image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -208,7 +206,7 @@ section {
 
 .contact-form .input-box input:focus ~ span,
 .contact-form .input-box textarea:focus ~ span{
-  color: #e91e63;
+  
   font-size: 12px;
   transform: translateY(-20px);
 }

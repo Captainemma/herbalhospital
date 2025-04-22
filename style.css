@@ -4,9 +4,8 @@
     margin: 0;
     padding: 0;
     transition: all 0.5s linear;
-    font-family: poppins;
+    font-family: 'Poppins';
     font-family: 'Gabarito', sans-serif;
-    font-family: 'Inclusive Sans', sans-serif;
 }
 
 body{
