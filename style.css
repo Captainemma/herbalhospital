@@ -62,6 +62,10 @@ body{
 .burger{
     display: none;
 }
+
+.logo img{
+    margin-left: 50px;
+}
 /* main */
 .main{
     height: 85vh;
